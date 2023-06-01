@@ -47,7 +47,7 @@ Jate is built using the following technologies:
 
 ## Code
 
-The `app.js` file contains the main functionality of the application, using the CodeMirror library for text editing. The `database.js` file contains methods to save and get data from the IndexedDB database. When the editor is ready, the value is set to whatever is stored in IndexedDB. If nothing is stored in IndexedDB, it falls back to localStorage, and if neither is available, it sets the value to the header. The content of the editor is saved to IndexedDB when the editor loses focus.
+When the editor is ready, the value is set to whatever is stored in IndexedDB. If nothing is stored in IndexedDB, it falls back to localStorage, and if neither is available, it sets the value to the header. The content of the editor is saved to IndexedDB when the editor loses focus.
 
 The `webpack.config.js` file defines the configuration for the webpack bundler. It specifies the entry points for the application (`index.js` and `install.js`), the output directory (`dist`), and the filename pattern for the bundled assets. It also defines the plugins to be used during the build process:
 
